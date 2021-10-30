@@ -3,7 +3,7 @@ import numpy as np
 from pmodes_simple import pmodes
 
 
-#load the image, in this case an h5 file11
+#load the image, in this case an h5 file; supply your own!
 im = eh.image.load_image('image_ma+0.5_1990_163_10.h5')
 #display it
 im.display()
